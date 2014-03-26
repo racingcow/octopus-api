@@ -177,8 +177,8 @@ describe('API', function() {
         should.not.exist(err);
         feeds.should.be.ok;
         feeds.should.not.be.empty;
-        // console.log(feeds.length);
-        // console.log(feeds[0]);
+        console.log(feeds.length);
+        console.log(feeds[0]);
         done();
       });
     });
