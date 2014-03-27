@@ -177,8 +177,21 @@ describe('API', function() {
         should.not.exist(err);
         feeds.should.be.ok;
         feeds.should.not.be.empty;
-        console.log(feeds.length);
-        console.log(feeds[0]);
+        // console.log(feeds.length);
+        // console.log(feeds[0]);
+        done();
+      });
+    });
+  });
+
+  describe('getEnvironments', function(done) {
+    it('should return environments', function (done) {
+      api.getEnvironments(function(err, environments) {
+        should.not.exist(err);
+        environments.should.be.ok;
+        environments.should.not.be.empty;
+        // console.log(environments.length);
+        // console.log(environments[0]);
         done();
       });
     });
