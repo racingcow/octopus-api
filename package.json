@@ -1,6 +1,6 @@
 {
   "name": "octopus-api",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/octopus-api.js",
   "description": "Node wrapper for octopus api",
   "homepage": "https://github.com/racingcow/octopus-api",
