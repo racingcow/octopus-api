@@ -15,6 +15,9 @@
   "unused": true,
   "sub": true,
   "globals": {
-    "projects": false
+    "describe": false,
+    "before": false,
+    "it": false,
+    "done": false
   }
 }

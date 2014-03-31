@@ -1,3 +1,6 @@
+/*jshint expr: true*/
+/*jshint unused:false*/
+
 'use strict';
 
 var should = require('should'),
